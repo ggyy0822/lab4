@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+table{
+    text-align: center;
+}
+td.pink{
+    background-color: pink;
+}
+th.top{
+    background-color: bisque;
+}
+td.blue{
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th class="top" colspan="6">Table title</th>
+  </tr>
+  <tr>
+    <td class="blue">1</td>
+    <td class="blue">2</td>
+    <td class="blue">3</td>
+    <td class="blue">4</td>
+    <td class="blue">5</td>
+    <td class="blue">6</td>
+  </tr>
+  <tr>
+    <td class="pink" colspan="3">7</td>
+    <td class="pink" colspan="3">8</td>
+  </tr>
+  <tr>
+    <td class="pink" rowspan="2">9</td>
+    <td class="blue">10</td>
+    <td class="pink" rowspan="2">11</td>
+    <td class="blue">12</td>
+    <td class="pink" rowspan="2">13</td>
+    <td class="blue">14</td>
+  </tr>
+  <tr>
+    <td class="blue">15</td>
+    <td class="blue">16</td>
+    <td class="blue">17</td>
+  </tr>
+  <tr>
+    <td class="blue">18</td>
+    <td class="blue">19</td>
+    <td class="blue">20</td>
+    <td class="blue">21</td>
+    <td class="blue">22</td>
+    <td class="blue">23</td>
+  </tr>
+  <tr>
+    <td class="blue">24</td>
+    <td class="pink" rowspan="3" colspan="4">30</td>
+    <td class="blue">25</td>
+  </tr>
+  <tr>
+    <td class="blue">26</td>
+    <td class="blue">27</td>
+  </tr>
+  <tr>
+    <td class="blue">28</td>
+    <td class="blue">29</td>
+  </tr>
+  <tr>
+    <th class="top" colspan="6">Table footnote</th>
+  </tr>
+</table>
+
+</body>
+</html>
